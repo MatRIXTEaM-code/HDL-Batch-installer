@@ -55,10 +55,10 @@ Eventually, i'll upgrade into the latest stable release 3.2.0, wich I hope doesn
 
 ### building with CMake (MSYS2)
 
-A `CMakeLists.txt` is provided next to the Code::Blocks project. It needs MinGW-w64 and wxWidgets 3.2 or newer. From an MSYS2 MINGW64 shell:
+A `CMakeLists.txt` is provided next to the Code::Blocks project. It needs MinGW-w64 and wxWidgets 3.2 or newer. From an MSYS2 UCRT64 shell:
 
 ```
-pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake mingw-w64-x86_64-ninja mingw-w64-x86_64-wxwidgets3.2-msw
+pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-wxwidgets3.2-msw
 cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 ```
