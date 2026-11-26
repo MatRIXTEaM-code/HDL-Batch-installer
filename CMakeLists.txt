@@ -4,8 +4,8 @@
 # with MinGW-w64 + wxWidgets 3.2 (MSW). Intended for CI and for contributors who don't use
 # Code::Blocks.
 #
-# Typical use from an MSYS2 MINGW64 shell:
-#   pacman -S mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake mingw-w64-x86_64-ninja mingw-w64-x86_64-wxwidgets3.2-msw
+# Typical use from an MSYS2 UCRT64 shell:
+#   pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-cmake mingw-w64-ucrt-x86_64-ninja mingw-w64-ucrt-x86_64-wxwidgets3.2-msw
 #   cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
 #   cmake --build build
 
